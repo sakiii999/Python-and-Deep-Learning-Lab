@@ -3,12 +3,12 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
 from sklearn.svm import SVC
-#Defining and assigning data and target variables
+#Defining and assigning data and target variable
 dd=datasets.load_iris() #Iris dataset is used from scipy datasets
 info=dd.data
 labeldata=dd.target
-xtrain,xtest,ytrain,ytest=train_test_split(info,labeldata,test_size=0.2,random_state=62)
-xtrain1,xtest1,ytrain1,ytest1=train_test_split(info,labeldata,test_size=0.2,random_state=30)
+xtrain,xtest,ytrain,ytest=train_test_split(info,labeldata,test_size=0.2,random_state=25)
+xtrain1,xtest1,ytrain1,ytest1=train_test_split(info,labeldata,test_size=0.2,random_state=13)
 svc=SVC(kernel='linear') #Applying SVC to linear kernel
 svc1=SVC(kernel='rbf') #Applying SVC to rbf kernel
 svc.fit(xtrain,ytrain)
