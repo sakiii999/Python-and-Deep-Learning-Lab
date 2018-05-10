@@ -7,3 +7,5 @@
 **Deep Learning Lab Assignment 1 Wiki:** https://github.com/sakiii999/Python-and-Deep-Learning-Lab/wiki/Deep-Learning-Lab-Assignment-1
 
 **Deep Learning Lab Assignment 2 Wiki:** https://github.com/sakiii999/Python-and-Deep-Learning-Lab/wiki/Deep-Learning-Lab-Assignment-2
+
+**Deep Learning Lab Assignment 3 Wiki:** https://github.com/sakiii999/Python-and-Deep-Learning-Lab/wiki/Deep-Learning-Lab-Assignment-3
